@@ -1,0 +1,47 @@
+# dependencies
+/pet_gato_front/node_modules
+/pet_gato_front/.pnp
+/pet_gato_front/.pnp.js
+
+# testing
+/pet_gato_front/coverage
+
+# production
+/pet_gato_front/build
+
+# misc
+/pet_gato_front/.DS_Store
+/pet_gato_front/.env.local
+/pet_gato_front/.env.development.local
+/pet_gato_front/.env.test.local
+/pet_gato_front/.env.production.local
+
+/pet_gato_front/npm-debug.log*
+/pet_gato_front/yarn-debug.log*
+/pet_gato_front/yarn-error.log*
+
+
+# Ignore bundler config.
+/pet_gato_back/.bundle
+
+# Ignore the default SQLite database.
+/pet_gato_back/db/*.sqlite3
+/pet_gato_back/db/*.sqlite3-journal
+/pet_gato_back/db/*.sqlite3-*
+
+# Ignore all logfiles and tempfiles.
+/pet_gato_back/log/*
+/pet_gato_back/tmp/*
+/pet_gato_back/!/log/.keep
+/pet_gato_back/!/tmp/.keep
+
+# Ignore uploaded files in development.
+/pet_gato_back/storage/*
+/pet_gato_back/!/storage/.keep
+/pet_gato_back/.byebug_history
+
+# Ignore master key for decrypting credentials and more.
+/pet_gato_back/config/master.key
+
+# Ignore node_modules do react
+/pet_gato_front/node_modules
